@@ -14,6 +14,7 @@
 		D004332421DDEAD3002C202D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004332221DDEAD3002C202D /* LaunchScreen.storyboard */; };
 		D004333021DDEB8A002C202D /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004332F21DDEB8A002C202D /* UIView+.swift */; };
 		D004333221DDF45E002C202D /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004333121DDF45E002C202D /* UIViewController+.swift */; };
+		D004333921DDFB93002C202D /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004333821DDFB93002C202D /* UIScrollView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D004332521DDEAD3002C202D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D004332F21DDEB8A002C202D /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		D004333121DDF45E002C202D /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		D004333821DDFB93002C202D /* UIScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				D004332F21DDEB8A002C202D /* UIView+.swift */,
 				D004333121DDF45E002C202D /* UIViewController+.swift */,
+				D004333821DDFB93002C202D /* UIScrollView+.swift */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -151,6 +154,7 @@
 			files = (
 				D004333021DDEB8A002C202D /* UIView+.swift in Sources */,
 				D004331C21DDEAD1002C202D /* ViewController.swift in Sources */,
+				D004333921DDFB93002C202D /* UIScrollView+.swift in Sources */,
 				D004333221DDF45E002C202D /* UIViewController+.swift in Sources */,
 				D004331A21DDEAD1002C202D /* AppDelegate.swift in Sources */,
 			);
