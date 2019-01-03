@@ -12,6 +12,7 @@
 		D004331F21DDEAD1002C202D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004331D21DDEAD1002C202D /* Main.storyboard */; };
 		D004332121DDEAD3002C202D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D004332021DDEAD3002C202D /* Assets.xcassets */; };
 		D004332421DDEAD3002C202D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D004332221DDEAD3002C202D /* LaunchScreen.storyboard */; };
+		D004332E21DDEB2E002C202D /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004332D21DDEB2E002C202D /* UIScrollView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D004332021DDEAD3002C202D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D004332321DDEAD3002C202D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D004332521DDEAD3002C202D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D004332D21DDEB2E002C202D /* UIScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 		D004331821DDEAD1002C202D /* SwiftExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				D004332B21DDEAE2002C202D /* Source */,
+				D004332C21DDEB1E002C202D /* Source */,
 				D004331921DDEAD1002C202D /* AppDelegate.swift */,
 				D004331B21DDEAD1002C202D /* ViewController.swift */,
 				D004331D21DDEAD1002C202D /* Main.storyboard */,
@@ -65,12 +67,13 @@
 			path = SwiftExtensions;
 			sourceTree = "<group>";
 		};
-		D004332B21DDEAE2002C202D /* Source */ = {
+		D004332C21DDEB1E002C202D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D004332D21DDEB2E002C202D /* UIScrollView+.swift */,
 			);
-			name = Source;
-			sourceTree = "<group>";
+			path = Source;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D004331C21DDEAD1002C202D /* ViewController.swift in Sources */,
+				D004332E21DDEB2E002C202D /* UIScrollView+.swift in Sources */,
 				D004331A21DDEAD1002C202D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
