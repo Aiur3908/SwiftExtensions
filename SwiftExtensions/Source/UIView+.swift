@@ -57,4 +57,9 @@ extension UIView {
     view.widthAnchor.constraint(equalTo: superView.widthAnchor).isActive = true
     view.heightAnchor.constraint(equalTo: superView.heightAnchor).isActive = true
   }
+
+  /// Remove all subViews
+  func removeAllSubViews() {
+    self.subviews.forEach({ $0.removeFromSuperview() })
+  }
 }
