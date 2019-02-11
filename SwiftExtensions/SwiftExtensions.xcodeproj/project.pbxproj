@@ -17,6 +17,7 @@
 		D004333921DDFB93002C202D /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004333821DDFB93002C202D /* UIScrollView+.swift */; };
 		D0141CD62211053000A97185 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0141CD52211053000A97185 /* UITableView+.swift */; };
 		D0141CD8221105D100A97185 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0141CD7221105D100A97185 /* UICollectionView+.swift */; };
+		D0141CDA22110EDB00A97185 /* DispatchQueue+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0141CD922110EDB00A97185 /* DispatchQueue+.swift */; };
 		D01781FE21EF0074002A400D /* Collection+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01781FD21EF0074002A400D /* Collection+.swift */; };
 		D017820021EF00BC002A400D /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01781FF21EF00BC002A400D /* String+.swift */; };
 		D04EE5E921ED7D750081CFE0 /* Bool+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04EE5E821ED7D750081CFE0 /* Bool+.swift */; };
@@ -37,6 +38,7 @@
 		D004333821DDFB93002C202D /* UIScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
 		D0141CD52211053000A97185 /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
 		D0141CD7221105D100A97185 /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
+		D0141CD922110EDB00A97185 /* DispatchQueue+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+.swift"; sourceTree = "<group>"; };
 		D01781FD21EF0074002A400D /* Collection+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+.swift"; sourceTree = "<group>"; };
 		D01781FF21EF00BC002A400D /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		D04EE5E821ED7D750081CFE0 /* Bool+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+.swift"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				D01781FF21EF00BC002A400D /* String+.swift */,
 				D0141CD52211053000A97185 /* UITableView+.swift */,
 				D0141CD7221105D100A97185 /* UICollectionView+.swift */,
+				D0141CD922110EDB00A97185 /* DispatchQueue+.swift */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0141CDA22110EDB00A97185 /* DispatchQueue+.swift in Sources */,
 				D04EE5E921ED7D750081CFE0 /* Bool+.swift in Sources */,
 				D004333021DDEB8A002C202D /* UIView+.swift in Sources */,
 				D017820021EF00BC002A400D /* String+.swift in Sources */,
